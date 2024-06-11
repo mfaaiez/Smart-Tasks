@@ -19,7 +19,7 @@ extension Date {
     func nextDate() -> Date {
         var dateComponents = DateComponents()
         let calendar = Calendar.current
-        dateComponents.day = 74
+        dateComponents.day = 1
         let futureDate = calendar.date(byAdding: dateComponents, to: self)
         return futureDate ?? currentDate()
     }
