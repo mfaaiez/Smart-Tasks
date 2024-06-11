@@ -1,0 +1,17 @@
+//
+//  Calendar+Extensions.swift
+//  Smart tasks
+//
+//  Created by Muhammad Faaiez Nisar on 11/06/2024.
+//
+
+import Foundation
+
+extension Calendar {
+    func numberOfDaysBetween(_ from: Date, and to: Date) -> Int {
+        let fromDate = startOfDay(for: from)
+        let toDate = startOfDay(for: to)
+        let numberOfDays = dateComponents([.day], from: fromDate, to: toDate)
+        return numberOfDays.day!
+    }
+}
