@@ -4,4 +4,4 @@ Employees often have different tasks during the day which they need to complete.
  
 Employee needs to note somewhere that particularly task is finished, and add comment what has been done, or what has been potential problem.
 
-This applicatios is made to tackle these hurdles and provice hassle free task management.
+This application is made to tackle these hurdles and provide hassle free task management.
